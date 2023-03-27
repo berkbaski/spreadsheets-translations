@@ -1,0 +1,30 @@
+{
+  "name": "spreadsheets-translations",
+  "version": "1.0.0",
+  "description": "Usage Google Spreadsheets for storage and manage translations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berkbaski/spreadsheets-translations.git"
+  },
+  "keywords": [
+    "node",
+    "translations",
+    "i18n",
+    "google",
+    "spread",
+    "excel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berkbaski/spreadsheets-translations/issues"
+  },
+  "homepage": "https://github.com/berkbaski/spreadsheets-translations#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
