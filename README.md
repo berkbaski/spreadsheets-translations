@@ -40,6 +40,19 @@ Replace the values with your actual Google Sheets document ID, name, range, API 
 npm start
 ```
 
+## Example of Google Spread content
+* | A | B | C
+--- | --- | --- | ---
+1 | Key | Language | Value
+2 | hello_text |	tr |	Merhaba
+3 | hello_text |	en |	Hello
+4 | login_button_text |	tr |	Login
+5 | login_button_text |	en |	Giriş Yap
+6 | errors.login |	tr |	Kullanıcı adı veya şifre yanlış
+7 | errors.login |	en |	Username or password is incorrect
+8 | errors.general.required_field |	tr |	Zorunlu alan
+9 | errors.general.required_field |	en |	Required field
+
 ## Usage
 Once the script has run successfully, you can use the generated JSON files in your project to access the translated data. The Turkish translations are stored in `./translations/tr.json` and the English translations are stored in `./translations/en.json`.
 
